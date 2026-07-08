@@ -1,0 +1,11 @@
+Source,Target,Weight,Type
+ginkgo biloba,neuroinflammation,6,Undirected
+bacopa monnieri,neuroinflammation,2,Undirected
+magnesium,neuroinflammation,12,Undirected
+dmso,hypothalamus,2,Undirected
+dmso,neuroinflammation,4,Undirected
+methylene blue,neuroinflammation,2,Undirected
+neuroinflammation,hypothalamus,2,Undirected
+magnesium,hypothalamus,2,Undirected
+vitamin c,hypothalamus,2,Undirected
+vitamin c,neuroinflammation,1,Undirected
