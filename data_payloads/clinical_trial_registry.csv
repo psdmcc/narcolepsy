@@ -53,3 +53,4 @@ def run_clinical_trial_registry(output_dir="data_payloads"):
 if __name__ == "__main__":
     run_clinical_trial_registry()
 2026-07-09,n/a,100mg,2,0,5,none,generally feeling good. loose motions persist plus dry cough. 
+2026-07-09,"have switched to the new protocol. vitc+edta in PM, separated ChlO2 and weakened below 3% from MB (now seriously diluted 1-2 drops in 100ml bottle + DMSO at ~ 30-40% + CuSO4 1-2gms + 50mls of purified water. and applying both 20 mins apart. no itchy skin, no blue stains, no heart palpitations",100,1,0,8,none,have switched to new protocol

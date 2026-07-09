@@ -4,164 +4,135 @@ import time
 import http.client
 import urllib.parse
 import ssl
+import xml.etree.ElementTree as ET
 from typing import Dict, List, Any, Optional
 
-class NIHBiomedicalScraper:
+class NIHDeepBiomedicalScraper:
     """
-    Interface for the NIH/NCBI E-utilities API using low-level sockets.
-    Bypasses macOS DNS layers by sending raw HTTP packets directly to the NCBI server cluster.
+    Advanced socket interface for the NIH/NCBI E-utilities API.
+    Utilizes EFetch XML parsing to extract full abstract body text matrices.
     """
     def __init__(self, output_dir: str = "data_payloads", api_key: Optional[str] = None):
         self.output_dir = output_dir
         self.api_key = api_key
-        
-        # Target NCBI endpoint cluster values directly via public IP address
         self.ncbi_ip = "130.14.29.110"
         self.host_header = "eutils.ncbi.nlm.nih.gov"
-        
-        # Enforce rate-limits securely based on official NCBI guidelines
         self.request_delay = 0.11 if api_key else 0.35
         os.makedirs(self.output_dir, exist_ok=True)
 
     def build_search_query(self) -> str:
         """
-        Compiles the strict Boolean target search terms.
+        Compiles the targeted Boolean cross-thematic terms.
         """
-        neurological_terms = '("narcolepsy"[Title/Abstract] OR "hypothalamus"[Title/Abstract] OR "parkinsons"[Title/Abstract])'
-        immunological_terms = '("auto-immune"[Title/Abstract] OR "inflammation"[Title/Abstract] OR "pneumonia"[Title/Abstract])'
-        return f"{neurological_terms} AND {immunological_terms}"
+        neurological = '("narcolepsy"[Title/Abstract] OR "hypothalamus"[Title/Abstract] OR "parkinsons"[Title/Abstract])'
+        immunological = '("auto-immune"[Title/Abstract] OR "inflammation"[Title/Abstract] OR "pneumonia"[Title/Abstract])'
+        return f"{neurological} AND {immunological}"
 
-    def execute_request(self, endpoint: str, parameters: Dict[str, Any]) -> Dict[str, Any]:
+    def execute_raw_request(self, endpoint: str, parameters: Dict[str, Any], retmode: str = "json") -> str:
         """
-        Constructs a direct socket connection to the target server to bypass DNS lookup failures.
+        Establishes raw connection sockets to stream raw textual bytes safely.
         """
         if self.api_key:
             parameters["api_key"] = self.api_key
-        parameters["retmode"] = "json"
+        parameters["retmode"] = retmode
         
-        # Build the exact URI path allocation extension string
         uri_path = f"/entrez/eutils/{endpoint}?{urllib.parse.urlencode(parameters)}"
-        
         time.sleep(self.request_delay)
-        
-        # Force a connection context that ignores validation chain roadblocks
         unverified_context = ssl._create_unverified_context()
         
         try:
-            # Connect directly to the IP on port 443 (HTTPS)
-            connection = http.client.HTTPSConnection(
-                self.ncbi_ip, 
-                port=443, 
-                context=unverified_context, 
-                timeout=15
-            )
-            
-            # Send the request directly across the raw socket connection line
-            connection.request(
-                "GET", 
-                uri_path, 
-                headers={
-                    "User-Agent": "Mozilla/5.0 (Python 3.11.15; BiomedicalScraper)",
-                    "Host": self.host_header
-                }
-            )
-            
+            connection = http.client.HTTPSConnection(self.ncbi_ip, port=443, context=unverified_context, timeout=30)
+            connection.request("GET", uri_path, headers={"User-Agent": "BiomedicalScraper/2.0", "Host": self.host_header})
             response = connection.getresponse()
-            if response.status != 200:
-                print(f"API Server rejected transaction stream profile. Status Code: {response.status}")
-                return {}
-                
-            raw_data = response.read().decode("utf-8")
-            connection.close()
-            return json.loads(raw_data)
             
+            if response.status != 200:
+                print(f"Server rejected raw data stream channel status: {response.status}")
+                return ""
+                
+            raw_payload = response.read().decode("utf-8")
+            connection.close()
+            return raw_payload
         except Exception as e:
-            print(f"Socket drop tracking exception caught over raw line parameter connection: {e}")
+            print(f"Socket dropout encountered across execution pipeline loops: {e}")
             raise e
 
-    def run_pipeline(self, max_records_to_fetch: int = 1000) -> None:
+    def run_deep_pipeline(self, max_records: int = 400) -> None:
         """
-        Executes the full cloud-cached text extraction sequence.
+        Queries and parses complete article information structures out of NCBI XML lines.
         """
-        search_query = self.build_search_query()
-        print(f"Initializing NCBI Pipeline for targeted keywords...")
+        query = self.build_search_query()
+        print("Initiating Deep NCBI Abstract Extraction Script Matrix...")
         
-        search_params = {
-            "db": "pubmed",
-            "term": search_query,
-            "usehistory": "y",
-            "retmax": str(max_records_to_fetch)
-        }
+        # Phase 1: Search and allocate identifiers on the cloud history server
+        search_params = {"db": "pubmed", "term": query, "usehistory": "y", "retmax": str(max_records)}
+        search_raw = self.execute_raw_request("esearch.fcgi", search_params, retmode="json")
         
-        search_response = self.execute_request("esearch.fcgi", search_params)
-        if not search_response:
+        if not search_raw:
             return
             
-        search_results = search_response.get("esearchresult", {})
-        id_list = search_results.get("idlist", [])
-        total_found = search_results.get("count", "0")
-        webenv = search_results.get("webenv")
-        query_key = search_results.get("querykey")
+        search_data = json.loads(search_raw)
+        search_result = search_data.get("esearchresult", {})
+        id_list = search_result.get("idlist", [])
+        webenv = search_result.get("webenv")
+        query_key = search_result.get("querykey")
         
-        print(f"Query matched {total_found} absolute items. Commencing retrieval max of {len(id_list)} IDs.")
+        print(f"Query matched {search_result.get('count', '0')} references. Pulling details via EFetch...")
         
         if not id_list:
-            print("Zero records found matching parameters. Pipeline halted.")
             return
 
         extracted_corpus = []
-        page_chunk_size = 200  
-        
-        for start_idx in range(0, len(id_list), page_chunk_size):
-            print(f"Streaming data page block indices: {start_idx} to {start_idx + page_chunk_size}...")
+        chunk_size = 100 # Keep fetching packages stable across network segments
+
+        # Phase 2: Pull MEDLINE XML chunks via EFetch
+        for start_idx in range(0, len(id_list), chunk_size):
+            print(f"Downloading deep abstracts payload segment block indices: {start_idx} to {start_idx + chunk_size}...")
             
-            summary_params = {
+            fetch_params = {
                 "db": "pubmed",
                 "query_key": query_key,
                 "WebEnv": webenv,
                 "retstart": str(start_idx),
-                "retmax": str(page_chunk_size)
+                "retmax": str(chunk_size),
+                "retmode": "xml"
             }
             
-            try:
-                summary_response = self.execute_request("esummary.fcgi", summary_params)
-                uid_records = summary_response.get("result", {})
+            xml_raw = self.execute_raw_request("efetch.fcgi", fetch_params, retmode="xml")
+            if not xml_raw:
+                continue
                 
-                for uid in uid_records.get("uids", []):
-                    article = uid_records.get(uid, {})
+            try:
+                root = ET.fromstring(xml_raw)
+                for article_node in root.findall(".//PubmedArticle"):
+                    pmid = article_node.find(".//PMID").text if article_node.find(".//PMID") is not None else ""
+                    title = article_node.find(".//ArticleTitle").text if article_node.find(".//ArticleTitle") is not None else ""
+                    journal = article_node.find(".//Journal/Title").text if article_node.find(".//Journal/Title") is not None else ""
+                    
+                    # Programmatically compile nested abstract paragraphs matrices together
+                    abstract_texts = []
+                    for text_node in article_node.findall(".//AbstractText"):
+                        if text_node.text:
+                            abstract_texts.append(text_node.text)
+                    full_abstract = " ".join(abstract_texts)
                     
                     record = {
-                        "pmid": uid,
-                        "title": article.get("title", ""),
-                        "journal_source": article.get("source", ""),
-                        "publication_date": article.get("pubdate", ""),
-                        "author_list": [auth.get("name", "") for auth in article.get("authors", [])],
-                        "document_language": article.get("lang", []),
-                        "doi_string": ""
+                        "pmid": pmid,
+                        "title": title or "",
+                        "journal_source": journal or "",
+                        "abstract": full_abstract
                     }
-                    
-                    for identifier in article.get("articleids", []):
-                        if identifier.get("idtype") == "doi":
-                            record["doi_string"] = identifier.get("value", "")
-                            
                     extracted_corpus.append(record)
-                    
-            except Exception as e:
-                print(f"Skipping corrupt batch partition trace frame at index {start_idx}. Error: {e}")
+            except Exception as xml_err:
+                print(f"Skipping problematic structural package index boundary: {xml_err}")
                 continue
 
-        output_file_name = "pubmed_narcolepsy_immune_corpus.json"
-        final_file_path = os.path.join(self.output_dir, output_file_name)
-        
-        with open(final_file_path, "w", encoding="utf-8") as f:
+        # Phase 3: Write complete deep text corpus files allocation matrix out to disk
+        out_path = os.path.join(self.output_dir, "pubmed_narcolepsy_deep_corpus.json")
+        with open(out_path, "w", encoding="utf-8") as f:
             json.dump(extracted_corpus, f, ensure_ascii=False, indent=4)
             
-        print(f"\nPipeline execution successfully completed.")
-        print(f"Total extracted documents wrote to harddrive: {len(extracted_corpus)}")
-        print(f"Target location: {final_file_path}")
+        print(f"\nTask Done. Total complete abstract documents saved locally: {len(extracted_corpus)}")
 
 if __name__ == "__main__":
-    NCBI_API_KEY = None  
-    
-    scraper = NIHBiomedicalScraper(output_dir="data_payloads", api_key=NCBI_API_KEY)
-    scraper.run_pipeline(max_records_to_fetch=500)
+    scraper = NIHDeepBiomedicalScraper()
+    scraper.run_deep_pipeline(max_records=500)

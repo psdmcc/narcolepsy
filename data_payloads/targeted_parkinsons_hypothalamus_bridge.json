@@ -1,0 +1,695 @@
+[
+    {
+        "pmid": "42323123",
+        "title": "Progressive orexin A positive neuron loss in the 6-OHDA mouse model of Parkinson's disease: a pilot study with validation of an orexin A immunohistochemistry protocol for paraffin-embedded tissue.",
+        "journal": "Brain research",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The aim of this pilot study was to assess a time-dependent loss of orexin neurons in the unilateral intrastriatal 6-OHDA mouse model and to optimise the immunohistochemistry protocol for formalin-fixed, paraffin-embedded mouse brain tissue. A progres..."
+    },
+    {
+        "pmid": "42196227",
+        "title": "Somatostatin in Aging: Correlations with Selected Central Nervous System and Gastrointestinal Tract Diseases.",
+        "journal": "International journal of molecular sciences",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The hypothalamic-pituitary-somatotropic (HPS) axis, which includes growth hormone (GH) and insulin-like growth factor 1 (IGF-1), is one of three endocrine systems that show a decline in hormone concentration with age. Among the hypothalamic hormones ..."
+    },
+    {
+        "pmid": "42193455",
+        "title": "From Stress to Neurodegeneration: A New Look at the Pathogenesis of Parkinson's Disease.",
+        "journal": "Biomedicines",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The relationship between stress and Parkinson's disease is regarded as complex and multifaceted, although a direct causal link has not yet been conclusively proven. One prevailing hypothesis is based on the activation of the hypothalamic-pituitary-ad..."
+    },
+    {
+        "pmid": "42181048",
+        "title": "The Gut-Brain Axis-From Science to Clinical Practice.",
+        "journal": "Gastro hep advances",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "While the idea that the gut and brain communicate has been appreciated for centuries and commented on in many literary works, the formal introduction of the term \"gut-brain axis\" was much more recent. To the lay person, the operations of this axis ar..."
+    },
+    {
+        "pmid": "42087592",
+        "title": "Roles of POU3F2 in Brain Development and Neuropsychiatric Disorders.",
+        "journal": "Developmental neurobiology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "POU3F2, a member of the Pit-Oct-Unc (POU) domain transcription factor family, is widely expressed in the central nervous system and essential for the development and maturation of brain. POU3F2 deletion results in impaired hypothalamus and neocortex ..."
+    },
+    {
+        "pmid": "42086457",
+        "title": "MCHR1 in Both Dopaminergic Neurons and Astrocytes in the SNpc Contributes to Acupuncture's Anti-Parkinsonian Effects.",
+        "journal": "Experimental neurobiology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Acupuncture stimulation at the GB34 acupoint has been reported to alleviate motor dysfunction in Parkinson's disease (PD) by activating the lateral hypothalamic melanin concentrating hormone (MCH) neurons projecting to the substantia nigra pars compa..."
+    },
+    {
+        "pmid": "42082689",
+        "title": "Hypothalamic orexigenic and anorexigenic neuropeptides in the rotenone model of Parkinson's disease.",
+        "journal": "Scientific reports",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Beyond depression and anxiety, non-motor symptoms of Parkinson's disease (PD) also include body weight changes with an unclear neurobiological background. Here, we aimed to characterize the functional-morphological changes of the main orexigenic and ..."
+    },
+    {
+        "pmid": "42040575",
+        "title": "Unveiling the relationship of the comorbidity between depression and type 2 diabetes mellitus: a macro analysis and micro interpretation.",
+        "journal": "Frontiers in medicine",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "This study aimed to address the lack of comprehensive reviews on the comorbidity between depression and type 2 diabetes mellitus (T2DM) by investigating their complex connections and identifying emerging research trends. We conducted an in-depth revi..."
+    },
+    {
+        "pmid": "41934491",
+        "title": "SIRT1 Activators as Geroprotective Agents in Brain Aging: Mechanisms and Therapeutic Potential.",
+        "journal": "Neuromolecular medicine",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The brain undergoes profound molecular and structural changes during the aging process, resulting in the development of neurodegeneration, cognitive impairment, and increased vulnerability to chronic diseases. At the cellular level, brain aging is ch..."
+    },
+    {
+        "pmid": "41916878",
+        "title": "Perspective: Depression in Persons with Parkinson's Disease.",
+        "journal": "Movement disorders : official journal of the Movement Disorder Society",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Depression is a prevalent and disabling syndrome characterized by sustained sadness and/or anhedonia, as well as cognitive and physical symptoms. In Parkinson's disease (PD), depression is both common and clinically challenging due to overlapping sym..."
+    },
+    {
+        "pmid": "41872484",
+        "title": "Pathophysiological roles of neural stem cells in neuropsychiatric diseases: from plasticity to pharmacological targeting.",
+        "journal": "Acta pharmacologica Sinica",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Neural stem cells (NSCs) persist throughout adulthood and contribute to circuit maintenance through controlled neurogenesis and trophic, metabolic, and immunomodulatory signaling. However, across neurological and psychiatric disorders, NSCs are not p..."
+    },
+    {
+        "pmid": "41814325",
+        "title": "Molecular mechanisms and therapeutic potential of tryptophan metabolism in gut-brain signaling transduction: a narrative review.",
+        "journal": "Journal of neuroinflammation",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "As an essential amino acid, tryptophan (Trp) serves as a pivotal mediator in gut-brain axis (GBA) communication through three primary metabolic pathways: kynurenine (Kyn), indole, and serotonin (5-HT), which together regulate neuroimmune and neuroend..."
+    },
+    {
+        "pmid": "41811373",
+        "title": "Hypothalamic atrophy in progressive supranuclear palsy, assessed by convolutional neural network-based automatic segmentation.",
+        "journal": "Journal of neurology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The hypothalamus as one of the core structures in metabolic control is increasingly recognized to be morphologically altered in various neurodegenerative diseases. The purpose of this study was to quantitatively investigate the hypothalamic volumes i..."
+    },
+    {
+        "pmid": "41777158",
+        "title": "The role of neuroactive steroids in psychiatric and neurological disorders: Neurobiology and therapeutic perspectives.",
+        "journal": "Neuroscience and biobehavioral reviews",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Neuroactive steroids, encompassing both peripherally derived hormones and neurosteroids synthesized de novo within the central nervous system, have emerged as pivotal modulators of brain physiology and pathology. This rapidly evolving field is transf..."
+    },
+    {
+        "pmid": "41759439",
+        "title": "Oxytocin beyond social bonding: Advancing neuromodulation, synaptic plasticity, and epigenetic precision in CNS disorders.",
+        "journal": "Neuropeptides",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Oxytocin, a neuropeptide predominantly produced in the hypothalamus, has garnered significant attention for its multifaceted roles extending beyond social bonding and reproduction to therapeutic applications in neurodegenerative and neuropsychiatric ..."
+    },
+    {
+        "pmid": "41512596",
+        "title": "Cytokine associated neuroinflammation in Parkinson's disease: Molecular pathways, therapeutic targets, and translational insights.",
+        "journal": "Cytokine & growth factor reviews",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Parkinson's disease (PD) is a progressive neurodegenerative disorder in which neuroinflammation plays a key role. An imbalance between pro- and anti-inflammatory cytokines has been observed in both experimental models and PD patients. The inflammator..."
+    },
+    {
+        "pmid": "41397943",
+        "title": "Familial mutations modulate α-synuclein interactions with key neuronal membrane lipids.",
+        "journal": "The FEBS journal",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Progressive aggregation of α-synuclein (α-Syn) in the midbrain, hypothalamus and thalamus is linked to Parkinson's disease (PD), one of the fastest growing neurodegenerative diseases in the U.S. Studies of families with PD history revealed several mu..."
+    },
+    {
+        "pmid": "41376842",
+        "title": "Neuroimaging findings in sleep disorders: A review article.",
+        "journal": "Neurobiology of sleep and circadian rhythms",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Sleep disorders including insomnia, obstructive sleep apnea (OSA), narcolepsy and REM sleep behavior disorder (RBD), significantly impair cognition, emotional wellbeing and physical health. This review synthesizes Neuroimaging evidence across major s..."
+    },
+    {
+        "pmid": "41372737",
+        "title": "Stress and neurodegeneration: mechanistic insights and therapeutic opportunities for preserving brain resilience.",
+        "journal": "Acta neurologica Belgica",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Neurodegenerative diseases such as Alzheimer’s disease, Parkinson’s disease, Huntington’s disease, and Amyotrophic Lateral Sclerosis are strongly influenced by persistent stress, which accelerates both their onset and progression. This review explore..."
+    },
+    {
+        "pmid": "41365116",
+        "title": "Microbiota-brain interaction: The role of gut-derived proteins in addressing various neurological disorders including Parkinson's (PD) and Alzheimer's diseases (AD).",
+        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The microbiota-brain interaction is a complex network connecting gut microbiota to the enteric nervous system (ENS) and the central nervous system (CNS) that are crucial for neurotransmission and neurological health. Metabolites such as short-chain f..."
+    },
+    {
+        "pmid": "41361705",
+        "title": "Changing chronomics of clock, immune and Parkinson's disease-associated genes in SCN and SN with aging in male Wistar rats: ketogenic diet intervention.",
+        "journal": "Biogerontology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The hypothalamic suprachiasmatic nucleus (SCN) functions as the central circadian pacemaker, synchronizing peripheral clocks through oscillations in core clock genes and proteins. Circadian disruption contributes to immunosenescence, aging, and neuro..."
+    },
+    {
+        "pmid": "41356880",
+        "title": "Ashwagandha as an Adaptogenic Herb: A Comprehensive Review of Immunological and Neurological Effects.",
+        "journal": "Cureus",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Ashwagandha (..."
+    },
+    {
+        "pmid": "41313264",
+        "title": "Comparative distribution of the hypothalamic neurons activated during wakefulness and paradoxical (REM) sleep using male TRAP2-red mice: contribution of orexin, MCH, Lhx6, and a new marker Meis2.",
+        "journal": "Sleep",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Paradoxical sleep (PS) is a state involving numerous hypothalamic neuronal subpopulations, many remaining neurochemically uncharacterized. Our goal was to compare hypothalamic neurons active during wakefulness or PS rebound (PSR) and explore their po..."
+    },
+    {
+        "pmid": "41297620",
+        "title": "Fermented foods and brain health: Gut-brain axis mechanisms and clinical insights.",
+        "journal": "The Journal of nutritional biochemistry",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The gut-brain axis represents a complex bidirectional communication network connecting the central nervous and gastrointestinal systems. Fermented foods and their phenolic compounds, which increase their bioavailability due to microbial transformatio..."
+    },
+    {
+        "pmid": "41294911",
+        "title": "Total Reversal of ALS Confirmed by EMG Normalization, Structural Reconstitution, and Neuromuscular-Molecular Restoration Achieved Through Computerized Brain-Guided Reengineering of the 1927 Nobel Prize Fever Therapy: A Case Report.",
+        "journal": "Diseases (Basel, Switzerland)",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Neurological disorders are the leading cause of disability, affecting over three billion people worldwide. Amyotrophic lateral sclerosis (ALS) is among the most feared and uniformly fatal neurodegenerative diseases, with no therapy capable of restori..."
+    },
+    {
+        "pmid": "41256624",
+        "title": "Neuroprotective Parkinson's Disease Therapeutic: Transition Metal Dichalcogenide Nanoflower Treatments Alleviate Pathological Cell Stress.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Parkinson's disease (PD) is triggered by irreversible degeneration of dopaminergic neurons in the midbrain, hypothalamus, and thalamus. Although the underlying molecular etiology of these pathological processes remains unclear, progressive aggregatio..."
+    },
+    {
+        "pmid": "41256373",
+        "title": "Transition Metal Dichalcogenide Nanoflowers Rescue Immune Cells from the Cytotoxic Effects of Amyloid Aggregates.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Parkinson's disease (PD) is a severe pathology caused by a progressive degeneration of neurons in the substantia nigra pars compacta, hypothalamus, and thalamus. Although etiology of PD remains unclear, accumulating evidence indicates that neurodegen..."
+    },
+    {
+        "pmid": "41203633",
+        "title": "Targeting the hypothalamic a11 nucleus to treat parkinsonian-like nociceptive impairments.",
+        "journal": "NPJ Parkinson's disease",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Pain is a common non-motor symptom in Parkinson's disease (PD), yet treatment options remain limited due to incomplete understanding of underlying mechanisms. Using the 6-hydroxydopamine (6-OHDA) rat model, we combined pharmacological, behavioural, c..."
+    },
+    {
+        "pmid": "41196192",
+        "title": "Gut-brain communication: nerve circuits and chemical messengers of colorectal motility and defecation control.",
+        "journal": "American journal of physiology. Regulatory, integrative and comparative physiology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Recent advances and foundational knowledge are integrated to provide a comprehensive description of brain-gut signaling relevant to colorectal motility, with an emphasis on defecation. We discuss molecular targets of therapeutic potential. We identif..."
+    },
+    {
+        "pmid": "41154720",
+        "title": "Neurobiochemical Effects of a High-Fat Diet: Implications for the Pathogenesis of Neurodegenerative Diseases.",
+        "journal": "Biology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The global rise in high-fat diet (HFD) consumption and obesity has raised concerns about their long-term effects on brain health. This review addresses how HFDs, including ketogenic diets (KDs), influence the central nervous system (CNS) and may cont..."
+    },
+    {
+        "pmid": "41078543",
+        "title": "Probiotics, gut microbiota, and brain health: Exploring therapeutic pathways.",
+        "journal": "AIMS microbiology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The gut microbiome plays a significant role in regulating gastrointestinal (GI) function and modulating the gut-brain axis, which describes the bidirectional communication between the GI tract and the central nervous system (CNS). Its involvement in ..."
+    },
+    {
+        "pmid": "41062303",
+        "title": "Diagnostic Potential of Macromolecular Proton Fraction Mapping Combined with Quantitative Susceptibility Mapping as a Subcortical Biomarker for Parkinson's Disease.",
+        "journal": "Magnetic resonance in medical sciences : MRMS : an official journal of Japan Society of Magnetic Resonance in Medicine",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "This study aimed to evaluate the diagnostic potential of macromolecular proton fraction (MPF) mapping combined with magnetic susceptibility measurements as subcortical biomarkers in Parkinson's disease (PD). Twenty patients with PD and 9 age-matched ..."
+    },
+    {
+        "pmid": "41059511",
+        "title": "The role of vagus nerve stimulation in modulating Parkinson's disease via the microbiota-gut-brain axis: a comprehensive review.",
+        "journal": "Frontiers in neurology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "As the global aging trend intensifies, the incidence of neurodegenerative diseases, including Parkinson's disease (PD), is increasing year by year. Currently, there is no effective cure for PD. Therefore, exploring safe and effective therapeutic targ..."
+    },
+    {
+        "pmid": "41054900",
+        "title": "Sympathetic Shift and Insular Alteration: Unravelling the Link Between Anxiety and Heart Rate Variability in Parkinson's Disease.",
+        "journal": "Movement disorders : official journal of the Movement Disorder Society",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Anxiety and autonomic dysfunction are frequent non-motor symptoms of Parkinson's disease (PD). Their relationship, as well as the neural mechanisms underlying this relationship, remain unexplored. We aimed to investigate the relationship between card..."
+    },
+    {
+        "pmid": "41009546",
+        "title": "Orexin and Lifestyle Habits: A Meaningful Connection Among Nutrition, Physical Activity, and Sleep Pattern in Health and Diseases.",
+        "journal": "International journal of molecular sciences",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Orexin is a neuropeptide produced in the hypothalamus that plays a key role in regulating slee-wake cycles, energy metabolism, feeding behavior, and physical activity. It exists in two forms, orexin-A and orexin-B, which bind to G protein-coupled rec..."
+    },
+    {
+        "pmid": "40912593",
+        "title": "Human microglia reduce alpha-synuclein aggregation and are neuroprotective in adult mouse brain.",
+        "journal": "Brain, behavior, and immunity",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Microglia, brain-resident immune cells, are involved in pathophysiology of several neurodegenerative diseases, including Parkinson's disease. Given significant species-specific differences in microglia gene expression, particularly in disease-risk ge..."
+    },
+    {
+        "pmid": "40887101",
+        "title": "Sleep in neurodegenerative diseases: A focus on melatonin, melanin-concentrating hormone and orexin.",
+        "journal": "Journal of neuroendocrinology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Sleep and circadian rest-activity rhythm alterations are recognised as inherent clinical features of various neurodegenerative diseases. Traditionally viewed as secondary manifestations of neurodegeneration, recent studies have revealed that disrupti..."
+    },
+    {
+        "pmid": "40868980",
+        "title": "Physiopathology of the Brain Renin-Angiotensin System.",
+        "journal": "Life (Basel, Switzerland)",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The renin-angiotensin system (RAS) has evolved from being considered solely a peripheral endocrine system for cardiovascular control to being recognized as a complex molecular network with important functions in the central nervous system (CNS) and p..."
+    },
+    {
+        "pmid": "40868257",
+        "title": "Animal Models for the Study of Neurological Diseases and Their Link to Sleep.",
+        "journal": "Biomedicines",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Sleep is a vital biological function governed by neuronal networks in the brainstem, hypothalamus, and thalamus. Disruptions in these circuits contribute to the sleep disturbances observed in neurodegenerative disorders, including Parkinson's disease..."
+    },
+    {
+        "pmid": "40808910",
+        "title": "Proteomic insights into the biology of dopaminergic neurons.",
+        "journal": "Frontiers in molecular neuroscience",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Dopaminergic neurons, primarily located in the substantia nigra, hypothalamus, and ventral tegmental area of the brain, play crucial roles in motor control, reward, motivation, and cognition. Alterations in their function are associated with numerous..."
+    },
+    {
+        "pmid": "40728035",
+        "title": "Orexin/Hypocretin Modulates Neuroinflammatory Response to LPS in a Sex and Brain-Region Specific Manner in Young Rats.",
+        "journal": "Journal of neurochemistry",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Neuroinflammation has emerged as a contributing mechanism in age-related cognitive decline (ARCD), Parkinson's disease (PD), obesity, sleep disorders, and autoimmune disorders. Orexin/hypocretin, a neuropeptide expressed in the lateral hypothalamus (..."
+    },
+    {
+        "pmid": "40691124",
+        "title": "Neuropathological and Biochemical Profiles of Lewy Pathology in the Central and Peripheral Nervous Systems of an Autopsy Case of SNCA Duplication.",
+        "journal": "Neuropathology : official journal of the Japanese Society of Neuropathology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Multiplication of the α-synuclein gene (SNCA) can cause familial Parkinson's disease (PD). In the present study, we investigated the neuropathological and biochemical profiles in the central and peripheral nervous systems of an autopsy case with SNCA..."
+    },
+    {
+        "pmid": "40681226",
+        "title": "Autonomic nervous system dysregulation in neurodegenerative diseases: Bridging brain and heart.",
+        "journal": "Progress in brain research",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Autonomic nervous system (ANS) dysregulation is commonly observed in a class of neurodegenerative disorders known as α-synucleinopathies including Parkinson's disease (PD), Dementia with Lewy Bodies, Multiple System Atrophy (MSA), and Pure Autonomic ..."
+    },
+    {
+        "pmid": "40681220",
+        "title": "Emotional stress and cardiovascular health: Impacts on neurodegenerative disease progression.",
+        "journal": "Progress in brain research",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Stress is an inevitable part of people's lives and is considered to have a severe impact on health, especially in the case of cardiovascular diseases and neurodegenerative diseases. This chapter aims to reveal the links between emotional stress, card..."
+    },
+    {
+        "pmid": "40623083",
+        "title": "Growth Hormone and IGF-1 Actions in the Brain and Neuropsychiatric Diseases.",
+        "journal": "Physiology (Bethesda, Md.)",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Growth hormone (GH) is secreted by the anterior pituitary gland under the control of hypothalamic neuroendocrine neurons that express somatostatin or growth hormone-releasing hormone (GHRH). Ghrelin, originating primarily in the stomach, is also an i..."
+    },
+    {
+        "pmid": "40526300",
+        "title": "Hypothalamic atrophy in CANVAS/RFC1.",
+        "journal": "Journal of neurology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS) is a late-onset multisystem disorder related to the RFC1 gene. Despite evidence of dysautonomia and sleep disturbances, hypothalamic involvement is unknown. We aimed to investi..."
+    },
+    {
+        "pmid": "40522408",
+        "title": "The orexin/hypocretin system in dementia-related neurological disorders: a double-edged sword in cognitive impairment.",
+        "journal": "Psychopharmacology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The orexin (OX) system plays a crucial role in regulating cognitive functions. Dysregulation of this system has been implicated in several dementia-related neurological disorders, including Alzheimer's disease (AD), Parkinson's disease (PD), Huntingt..."
+    },
+    {
+        "pmid": "40478471",
+        "title": "Hypothalamus and intracranial volume segmentation at the group level by use of a Gradio-CNN framework.",
+        "journal": "International journal of computer assisted radiology and surgery",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "This study aimed to develop and evaluate a graphical user interface (GUI) for the automated segmentation of the hypothalamus and intracranial volume (ICV) in brain MRI scans. The interface was designed to facilitate efficient and accurate segmentatio..."
+    },
+    {
+        "pmid": "40464816",
+        "title": "Vitamin D and Neurodegenerative Diseases Such as Multiple Sclerosis (MS), Parkinson's Disease (PD), Alzheimer's Disease (AD), and Amyotrophic Lateral Sclerosis (ALS): A Review of Current Literature.",
+        "journal": "Current nutrition reports",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "This review explores the role of Vitamin D3 and its derivatives as inhibitors of pathological metabolic modifications in neurodegenerative diseases. The manuscript investigates how Vitamin D3 impacts neuronal calcium regulation, antioxidative pathway..."
+    },
+    {
+        "pmid": "40443186",
+        "title": "Microstructural Changes in the Tuberal Hypothalamus Correlate with Daytime Sleepiness in Lewy Body Disorders.",
+        "journal": "Movement disorders : official journal of the Movement Disorder Society",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Excessive daytime sleepiness (EDS) is a disabling symptom of Lewy body disorders (LBD). The hypothalamus is a key sleep-wake regulator and is involved in Lewy pathology, but its contribution to EDS in LBD remains unclear. To use diffusion-weighted ma..."
+    },
+    {
+        "pmid": "40441785",
+        "title": "Impact of sexuality on degenerative diseases.",
+        "journal": "Progress in brain research",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Human sexuality is shaped by a complex interplay of biological, psychological, social, and cultural factors, influencing individual identity, behaviors, relationships, and sexual experience. Far from merely reflecting anatomical characteristics, sexu..."
+    },
+    {
+        "pmid": "40416735",
+        "title": "Subregional analysis of the amygdala, thalamus, and hypothalamus at the pre-decline stage in Parkinson's disease with later cognitive impairment.",
+        "journal": "Frontiers in aging neuroscience",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Cognitive decline in Parkinson's disease (PD) significantly impacts patients' quality of life, yet early detection remains challenging. While structural brain abnormalities in cortical regions have been widely documented using magnetic resonance imag..."
+    },
+    {
+        "pmid": "40398727",
+        "title": "Resting-state fMRI study on male patients with Parkinson's disease and with sexual dysfunction.",
+        "journal": "Neuroscience",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Sexual dysfunction (SD) is a common non-motor symptom in Parkinson's disease (PD) that substantially reduces patients' quality of life. However, the underlying neural mechanisms of SD in PD remain poorly understood. This study aimed to investigate th..."
+    },
+    {
+        "pmid": "40351080",
+        "title": "HucMSCs-derived Exosomes Protect Against 6-hydroxydopamineinduced Parkinson's Disease in Rats by Inhibiting Caspase-3 Expression and Suppressing Apoptosis.",
+        "journal": "Current stem cell research & therapy",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Parkinson's disease (PD) is a progressive neurodegenerative disorder with symptoms including tremor and bradykinesia, while traditional dopamine replacement therapy and hypothalamic deep brain stimulation can temporarily relieve patients' symptoms, t..."
+    },
+    {
+        "pmid": "40344229",
+        "title": "The Therapeutic Potential of Melatonin and Its Novel Synthetic Analogs in Circadian Rhythm Sleep Disorders, Inflammation-Associated Pathologies, and Neurodegenerative Diseases.",
+        "journal": "Medicinal research reviews",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Melatonin, N-acetyl-5-methoxytryptamine, is a tryptophan-derived hormone mostly produced in the pineal gland, despite being synthesized locally at several tissues and organs. This production is rhythmically controlled by complex clock gene networks i..."
+    },
+    {
+        "pmid": "40278600",
+        "title": "Sleep and Arousal Hubs and Ferromagnetic Ultrafine Particulate Matter and Nanoparticle Motion Under Electromagnetic Fields: Neurodegeneration, Sleep Disorders, Orexinergic Neurons, and Air Pollution in Young Urbanites.",
+        "journal": "Toxics",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Air pollution plays a key role in sleep disorders and neurodegeneration. Alzheimer's disease (AD), Parkinson's disease (PD), and/or transactive response DNA-binding protein TDP-43 neuropathology have been documented in children and young adult forens..."
+    },
+    {
+        "pmid": "40247826",
+        "title": "The role of phospholipid saturation and composition in α-synuclein aggregation and toxicity: A dual in vitro and in vivo approach.",
+        "journal": "Protein science : a publication of the Protein Society",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Parkinson's disease is characterized by a progressive accumulation of α-synuclein (α-syn) aggregates in Lewy bodies, extracellular deposits found in the midbrain, hypothalamus, and thalamus. The rate of α-syn aggregation, as well as the secondary str..."
+    },
+    {
+        "pmid": "40157405",
+        "title": "Multidimensional mechanisms of anxiety and depression in Parkinson's disease: Integrating neuroimaging, neurocircuits, and molecular pathways.",
+        "journal": "Pharmacological research",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Anxiety and depression are common non-motor symptoms of Parkinson's disease (PD) that significantly affect patients' quality of life. In recent years, our understanding of PD has advanced through multifaceted studies on the pathological mechanisms as..."
+    },
+    {
+        "pmid": "40145348",
+        "title": "Berberine Improves Depression-Like Behaviors and Gastrointestinal Dysfunction in 6-Hydroxydopamine-Induced Parkinson's Disease Rats.",
+        "journal": "Neurogastroenterology and motility",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Berberine (BBR) enhances the production of levodopa in gut microbes, which is converted to dopamine in the brain of Parkinson's disease (PD). However, limited research has explored the effects of BBR on non-motor symptoms, such as depression and gast..."
+    },
+    {
+        "pmid": "40109997",
+        "title": "Correlation of inflammatory markers with depression and sleep disorders accompanying the prodromal stage of Parkinson's disease.",
+        "journal": "World journal of psychiatry",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Parkinson's disease (PD) is a common neurodegenerative disorder with increasing incidence and disability rates globally, placing a heavy burden on patients and their families. In the prodromal phase of PD, nonmotor symptoms, particularly depression a..."
+    },
+    {
+        "pmid": "39920976",
+        "title": "Role of OX/OXR cascade in insomnia and sleep deprivation link Alzheimer's disease and Parkinson's disease: Therapeutic avenue of Dual OXR Antagonist (DORA).",
+        "journal": "Biochemical pharmacology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Sleep plays a role in the elimination of neurotoxic metabolites that are accumulated in the waking brain as a result of neuronal activity. Long-term insomnia and sleep deprivation are associated with oxidative stress, neuroinflammation, amyloid beta ..."
+    },
+    {
+        "pmid": "39857659",
+        "title": "Transcriptomic Profile Analysis of Brain Tissue in the Absence of Functional TRPM8 Calcium Channel.",
+        "journal": "Biomedicines",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "No abstract content"
+    },
+    {
+        "pmid": "39835618",
+        "title": "Disrupted Paraventricular Hypothalamic Nucleus Functional Connectivity in Parkinson's Disease With Constipation.",
+        "journal": "Neurogastroenterology and motility",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Constipation is one of the most common non-motor symptoms in patients with Parkinson's disease (PD), which could manifest during the early stage of the disease. However, the etiology of constipation in PD remains largely unknown. Previous studies sup..."
+    },
+    {
+        "pmid": "39822067",
+        "title": "Understanding glucose metabolism and insulin action at the blood-brain barrier: Implications for brain health and neurodegenerative diseases.",
+        "journal": "Acta physiologica (Oxford, England)",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The blood-brain barrier (BBB) is a highly selective, semipermeable barrier critical for maintaining brain homeostasis. The BBB regulates the transport of essential nutrients, hormones, and signaling molecules between the bloodstream and the central n..."
+    },
+    {
+        "pmid": "39766276",
+        "title": "Organ-on-a-Chip Models-New Possibilities in Experimental Science and Disease Modeling.",
+        "journal": "Biomolecules",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "'Organ-on-a-chip' technology is a promising and rapidly evolving model in biological research. This innovative microfluidic cell culture device was created using a microchip with continuously perfused chambers, populated by living cells arranged to r..."
+    },
+    {
+        "pmid": "39694308",
+        "title": "Elucidation of cytotoxicity of α-Synuclein fibrils on immune cells.",
+        "journal": "Biochimica et biophysica acta. Proteins and proteomics",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Progressive aggregation of α-synuclein (α-Syn), a small cytosolic protein involved in cell vesicle trafficking, in the midbrain, hypothalamus, and thalamus is linked to Parkinson's disease (PD). Amyloid oligomers and fibrils formed as a result of suc..."
+    },
+    {
+        "pmid": "39684879",
+        "title": "The Role of Hypothalamic Microglia in the Onset of Insulin Resistance and Type 2 Diabetes: A Neuro-Immune Perspective.",
+        "journal": "International journal of molecular sciences",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Historically, microglial activation has been associated with diseases of a neurodegenerative and neuroinflammatory nature. Some, like Alzheimer's disease, Parkinson's disease, and multiple system atrophy, have been explored extensively, while others ..."
+    },
+    {
+        "pmid": "39636503",
+        "title": "Filbertone-Induced Nrf2 Activation Ameliorates Neuronal Damage via Increasing BDNF Expression.",
+        "journal": "Neurochemical research",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Neurotrophic factors are endogenous proteins that promote the survival of various neuronal cells. Increasing evidence has suggested a key role for brain-derived neurotrophic factor (BDNF) in the dopaminergic neurotoxicity associated with Parkinson's ..."
+    },
+    {
+        "pmid": "39621239",
+        "title": "Histaminergic Innervation of the Ventral Anterior Thalamic Nucleus Alleviates Motor Deficits in a 6-OHDA-Induced Rat Model of Parkinson's Disease.",
+        "journal": "Neuroscience bulletin",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The ventral anterior (VA) nucleus of the thalamus is a major target of the basal ganglia and is closely associated with the pathogenesis of Parkinson's disease (PD). Notably, the VA receives direct innervation from the hypothalamic histaminergic syst..."
+    },
+    {
+        "pmid": "39589170",
+        "title": "Emerging role of microglia in the developing dopaminergic system: Perturbation by early life stress.",
+        "journal": "Neural regeneration research",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Early life stress correlates with a higher prevalence of neurological disorders, including autism, attention-deficit/hyperactivity disorder, schizophrenia, depression, and Parkinson's disease. These conditions, primarily involving abnormal developmen..."
+    },
+    {
+        "pmid": "39550400",
+        "title": "Opposite effects of low and high frequency deep brain stimulation of lateral hypothalamus on arousal and temperature in a monkey pilot study.",
+        "journal": "Scientific reports",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Deep brain stimulation is a well-established treatment for improving motor symptoms in Parkinson's disease. However, persistent non-motor symptoms, such as excessive daytime sleepiness, remain a significant challenge and necessitate further investiga..."
+    },
+    {
+        "pmid": "39469734",
+        "title": "Cholesterol Accelerates Aggregation of α-Synuclein Simultaneously Increasing the Toxicity of Amyloid Fibrils.",
+        "journal": "ACS chemical neuroscience",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "A hallmark of Parkinson disease (PD) is a progressive degeneration of neurons in the substantia nigra pars compacta, hypothalamus, and thalamus. Although the exact etiology of irreversible neuronal degeneration is unclear, a growing body of experimen..."
+    },
+    {
+        "pmid": "39403983",
+        "title": "Biological aging analysis based on DNA methylation status for social anxiety disorder.",
+        "journal": "Neuropsychopharmacology reports",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Social anxiety disorder (SAD) is a common disorder characterized by excessive fear of scrutiny and embarrassment, leading to severe distress and avoidance behaviors or dysfunctions. SAD and other relevant diseases have been reported to be associated ..."
+    },
+    {
+        "pmid": "39370447",
+        "title": "Selective vulnerability of parvocellular oxytocin neurons in social dysfunction.",
+        "journal": "Nature communications",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Selective vulnerability offers a conceptual framework for understanding neurodegenerative disorders such as Parkinson's disease, where specific neuronal types are selectively affected and adjacent ones are spared. However, the applicability of this f..."
+    },
+    {
+        "pmid": "39248182",
+        "title": "Glucocorticoid receptor signaling in the brain and its involvement in cognitive function.",
+        "journal": "Neural regeneration research",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The hypothalamic-pituitary-adrenal axis regulates the secretion of glucocorticoids in response to environmental challenges. In the brain, a nuclear receptor transcription factor, the glucocorticoid receptor, is an important component of the hypothala..."
+    },
+    {
+        "pmid": "39185524",
+        "title": "Microstructural changes in the inferior tuberal hypothalamus correlate with daytime sleepiness in Lewy body disease.",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Excessive daytime sleepiness (EDS) is a disabling symptom of Lewy body disorders (LBD). The hypothalamus is a key sleep-wake regulator, but its contribution to EDS in LBD remains unclear. Use diffusion MRI to evaluate the relationship of hypothalamic..."
+    },
+    {
+        "pmid": "39156625",
+        "title": "Neuro Receptor Signal Detecting and Monitoring Smart Devices for Biological Changes in Cognitive Health Conditions.",
+        "journal": "Annals of neurosciences",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Currently, wearable sensors significantly impact health care through continuous monitoring and event prediction. The types and clinical applications of wearable technology for the prevention of mental illnesses, as well as associated health authority..."
+    },
+    {
+        "pmid": "39119926",
+        "title": "Central Role of Hypothalamic Circuits for Acupuncture's Anti-Parkinsonian Effects.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Despite clinical data stretching over millennia, the neurobiological basis of the effectiveness of acupuncture in treating diseases of the central nervous system has remained elusive. Here, using an established model of acupuncture treatment in Parki..."
+    },
+    {
+        "pmid": "39099429",
+        "title": "Oxytocin Protects Nigrostriatal Dopamine Signal via Activating GABAergic Circuit in the MPTP-Induced Parkinson's Disease Model.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The most pronounced neuropathological feature of Parkinson's disease (PD) is the loss of dopamine (DA) neurons in the substantia nigra compacta (SNc), which depletes striatal DA. Hypothalamic oxytocin is found to be reduced in PD patients and closely..."
+    },
+    {
+        "pmid": "39071627",
+        "title": "Gut-brain axis: A cutting-edge approach to target neurological disorders and potential synbiotic application.",
+        "journal": "Heliyon",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "The microbiota-gut-brain axis (MGBA) represents a sophisticated communication network between the brain and the gut, involving immunological, endocrinological, and neural mediators. This bidirectional interaction is facilitated through the vagus nerv..."
+    },
+    {
+        "pmid": "38927502",
+        "title": "The Role of Zinc in the Development of Vascular Dementia and Parkinson's Disease and the Potential of Carnosine as Their Therapeutic Agent.",
+        "journal": "Biomedicines",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Synaptic zinc ions (Zn..."
+    },
+    {
+        "pmid": "38886854",
+        "title": "Alpha-synuclein-induced stress sensitivity renders the Parkinson's disease brain susceptible to neurodegeneration.",
+        "journal": "Acta neuropathologica communications",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "A link between chronic stress and Parkinson's disease (PD) pathogenesis is emerging. Ample evidence demonstrates that the presynaptic neuronal protein alpha-synuclein (asyn) is closely tied to PD pathogenesis. However, it is not known whether stress ..."
+    },
+    {
+        "pmid": "38843617",
+        "title": "Low-dose radiation decreases Lrrk2 levels in the striatum of large mammalian brains: New venues to treat Parkinson's disease?",
+        "journal": "Parkinsonism & related disorders",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Among gene mutations and variants linked to an increased risk of PD, mutations of leucine-rich repeat kinase 2 gene (LRRK2) are among the most frequently associated with early- and late-onset PD. Clinical and neuropathological characteristics of idio..."
+    },
+    {
+        "pmid": "38825254",
+        "title": "Shedding light on subiculum's role in human brain disorders.",
+        "journal": "Brain research bulletin",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Subiculum is a pivotal output component of the hippocampal formation, a structure often overlooked in neuroscientific research. Here, this review aims to explore the role of the subiculum in various brain disorders, shedding light on its significance..."
+    },
+    {
+        "pmid": "38784125",
+        "title": "High-Throughput Microelectrode Arrays for Precise Functional Localization of the Globus Pallidus Internus.",
+        "journal": "Cyborg and bionic systems (Washington, D.C.)",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The globus pallidus internus (GPi) was considered a common target for stimulation in Parkinson's disease (PD). Located deep in the brain and of small size, pinpointing it during surgery is challenging. Multi-channel microelectrode arrays (MEAs) can p..."
+    },
+    {
+        "pmid": "38701995",
+        "title": "Sex-dependent effects of monomeric α-synuclein on calcium and cell death of lateral hypothalamic mouse neurons are altered by orexin.",
+        "journal": "Molecular and cellular neurosciences",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Parkinson's Disease (PD) patients experience sleeping disorders in addition to the disease-defining symptomology of movement dysfunctions. The prevalence of PD is sex-based and presence of sleeping disorders in PD also shows sex bias with a stronger ..."
+    },
+    {
+        "pmid": "38581741",
+        "title": "Hypothalamic involvement in multiple system atrophy: A structural MRI study.",
+        "journal": "Journal of the neurological sciences",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "To investigate hypothalamic atrophy and its clinical correlates in multiple system atrophy (MSA) in-vivo. MSA is characterized by autonomic dysfunction and parkinsonian/cerebellar manifestations. The hypothalamus regulates autonomic and homeostatic f..."
+    },
+    {
+        "pmid": "38516412",
+        "title": "Thyroid hormone action in adult neurogliogenic niches: the known and unknown.",
+        "journal": "Frontiers in endocrinology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Over the last decades, thyroid hormones (THs) signaling has been established as a key signaling cue for the proper maintenance of brain functions in adult mammals, including humans. One of the most fascinating roles of THs in the mature mammalian bra..."
+    },
+    {
+        "pmid": "38479482",
+        "title": "Microstructural alterations of the hypothalamus in Parkinson's disease and probable REM sleep behavior disorder.",
+        "journal": "Neurobiology of disease",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Whether there is hypothalamic degeneration in Parkinson's disease (PD) and its association with clinical symptoms and pathophysiological changes remains controversial. We aimed to quantify microstructural changes in hypothalamus using a novel deep le..."
+    },
+    {
+        "pmid": "38459754",
+        "title": "Dementia and depression: Biological connections with amyloid β protein.",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Dementia is an umbrella term for a broad group of age-associated neurodegenerative diseases. It is estimated that dementia affects 50 million people worldwide and that Alzheimer's disease (AD) is responsible for up to 75% of cases. Small extracellula..."
+    },
+    {
+        "pmid": "38334622",
+        "title": "Ergothioneine Prevents Neuronal Cell Death Caused by the Neurotoxin 6-Hydroxydopamine.",
+        "journal": "Cells",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Neuronal cell death is a key mechanism involved in the development and exacerbation of Parkinson's disease (PD). The excessive production of reactive oxygen species (ROS) is a major cause leading to neuronal death; therefore, compounds that prevent o..."
+    },
+    {
+        "pmid": "38259552",
+        "title": "Chromatic pupillometry for evaluating melanopsin retinal ganglion cell function in Alzheimer's disease and other neurodegenerative disorders: a review.",
+        "journal": "Frontiers in psychology",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "The evaluation of pupillary light reflex (PLR) by chromatic pupillometry may provide a unique insight into specific photoreceptor functions. Chromatic pupillometry refers to evaluating PLR to different wavelengths and intensities of light in order to..."
+    },
+    {
+        "pmid": "38222845",
+        "title": "Does activation of oxytocinergic reward circuits postpone the decline of the aging brain?",
+        "journal": "Frontiers in psychology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Oxytocin supports reproduction by promoting sexual- and nursing behavior. Moreover, it stimulates reproductive organs by different avenues. Oxytocin is released to the blood from terminals of oxytocinergic neurons which project from the hypothalamus ..."
+    },
+    {
+        "pmid": "38166409",
+        "title": "Phospholipids and Cholesterol Determine Molecular Mechanisms of Cytotoxicity of α-Synuclein Oligomers and Fibrils.",
+        "journal": "ACS chemical neuroscience",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Progressive loss of dopaminergic (DA) neurons in the substantia nigra pars compacta, hypothalamus, and thalamus is a hallmark of Parkinson's disease. Neuronal death is linked to the abrupt aggregation of α-synuclein (α-Syn), a small membrane protein ..."
+    },
+    {
+        "pmid": "38067154",
+        "title": "The Role of Cortisol in Chronic Stress, Neurodegenerative Diseases, and Psychological Disorders.",
+        "journal": "Cells",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Cortisol, a critical glucocorticoid hormone produced by the adrenal glands, plays a pivotal role in various physiological processes. Its release is finely orchestrated by the suprachiasmatic nucleus, governing the circadian rhythm and activating the ..."
+    },
+    {
+        "pmid": "38003702",
+        "title": "Can Ashwagandha Benefit the Endocrine System?-A Review.",
+        "journal": "International journal of molecular sciences",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "No abstract content"
+    },
+    {
+        "pmid": "37941908",
+        "title": "FoxO1 as a tissue-specific therapeutic target for type 2 diabetes.",
+        "journal": "Frontiers in endocrinology",
+        "contains_inflammation_context": true,
+        "abstract_snippet": "Forkhead box O (FoxO) proteins are transcription factors that mediate many aspects of physiology and thus have been targeted as therapeutics for several diseases including metabolic disorders such as type 2 diabetes mellitus (T2D). The role of FoxO1 ..."
+    },
+    {
+        "pmid": "37890776",
+        "title": "The toxicities of A30P and A53T α-synuclein fibrils can be uniquely altered by the length and saturation of fatty acids in phosphatidylserine.",
+        "journal": "The Journal of biological chemistry",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Progressive degeneration of dopaminergic neurons in the midbrain, hypothalamus, and thalamus is a hallmark of Parkinson's disease (PD). Neuronal death is linked to the abrupt aggregation of α-synuclein (α-syn), a small protein that regulates vesicle ..."
+    },
+    {
+        "pmid": "37603792",
+        "title": "Elucidation of Secondary Structure and Toxicity of α-Synuclein Oligomers and Fibrils Grown in the Presence of Phosphatidylcholine and Phosphatidylserine.",
+        "journal": "ACS chemical neuroscience",
+        "contains_inflammation_context": false,
+        "abstract_snippet": "Abrupt aggregation of α-synuclein (α-Syn) in the midbrain hypothalamus and thalamus is a hallmark of Parkinson's disease (PD), the fastest growing neurodegenerative pathology, projected to strike 12 million people by 2040 worldwide. In this study, we..."
+    }
+]

@@ -1,0 +1,8 @@
+Source,Target,Weight,Type
+auto-immune,inflammation,13,Undirected
+hypothalamus,inflammation,51,Undirected
+auto-immune,hypothalamus,2,Undirected
+inflammation,narcolepsy,3,Undirected
+auto-immune,narcolepsy,2,Undirected
+hypothalamus,narcolepsy,1,Undirected
+inflammation,parkinsons,2,Undirected
