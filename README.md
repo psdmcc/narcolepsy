@@ -10,7 +10,7 @@ The relevant files are:
 
 1. What causes narcolepsy
 2. The Science
-3. narcolepsy_notes_daily_regime...
+3. Daily regime
 4. Critical Safety Warnings
 
 
