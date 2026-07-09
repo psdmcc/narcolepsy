@@ -36,13 +36,7 @@ It seems that narcolepsy is an auto-immune illness that results from inflammatio
 The protocols I have developed maximise reducing inflammation and protecting neural pathways.
 
 One of the biggest symptoms I used to experience was the feeling that deep inside my brain it was on fire. 
-At some point, I thought to myself, "So is this inflammation? If 'yes', how to reduce it?"
-
-This repository is not well organised. I will try to find the time to sort it out. 
-There are peer-reviewed scientific articles on narcolepsy.
-There are python scripts I used to scrape the NIH database and analyse the literature.
-There is a very messy daily protocol file that has lots of information about narcolepsy and what 
-the things I take do, how to avoid toxicity and having one thing cancel the other out. 
+At some point, I thought to myself, "So is this inflammation? If 'yes', how to reduce it?" 
 
 I've also set up a registry to log my daily consumptions and physical/mental states. You could replicate this. 
 
