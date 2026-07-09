@@ -13,6 +13,14 @@ The relevant files are:
 3. Daily regime
 4. Critical Safety Warnings
 
+The science behind this is a scraping of the NIH repository and analysis using Python.
+You can read more about the methodology:
+
+5. Literature Review Methodology
+
+
+Bascially, however, the following executive summary, well... sums it up. The protocol I used is backed by Science™.
+
 
 ==================
 Executive Summary
