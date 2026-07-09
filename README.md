@@ -8,15 +8,15 @@ Always consult a qualified and competent medical professional before starting an
 
 The relevant files are:
 
-1. [What causes narcolepsy](What causes narcolepsy.rtf)
-2. [The Science](The Science.rtf)
-3. [Daily regime](DAILY REGIME.md)
-4. [Critical Safety Warnings](Critical Safety Warnings.rtf)
+1. [What causes narcolepsy](What_causes_narcolepsy.rtf)
+2. [The Science](The_Science.rtf)
+3. [Daily regime](Daily_Regime.md)
+4. [Critical Safety Warnings](Critical_Safety_Warnings.rtf)
 
 The science behind this is a scraping of the NIH repository and analysis using Python.
 You can read more about the methodology:
 
-5. [Literature Review Methodology](Literature Review Methodology.rtf)
+5. [Literature Review Methodology](Literature_Review_Methodology.rtf)
 
 
 Bascially, however, the following executive summary, well... sums it up. The protocol I used is backed by Science™.
